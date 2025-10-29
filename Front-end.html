@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWave</title>
+    <link rel="stylesheet" href="front-end.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+      <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo"><img src="https://static.vecteezy.com/system/resources/previews/023/654/784/non_2x/golden-logo-template-free-png.png" alt="TechWave Logo"><h1>TechWave</h1></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#herosection">Home</a></li>
+            <li><a href="#course ">Course</a></li>
+            <li><a href="#abouttechwave">About</a></li>
+            <li><a href="#formsection">Contact</a></li>
+        </ul>
+        <div class="menu-icon" id="menuIcon" onclick="toggleMenu()">☰</div>
+  </nav>
+  <!-- Hero section -->
+  <div class="hero-section" id="herosection">
+    <h1>Learn Tech Skills Today</h1>
+    <p>Explore Web Dev, Python & AI courses with TechWave</p>
+    <button class="fancy-button" id="getStartedBtn">Get Started </button>
+  </div>
+    <!-- courese section -->
+     <div class="courses" id="course">
+        <!-- first card  -->
+      <div class="card">
+        <div class="image">
+          <img src="https://aptits.com/Img/pppp.jpg" alt="">
+        </div>
+        <div class="about-detail">
+           <h1>&#x25CF; WEB DEVELOPMENT</h1>
+           <p>Web Development is the art of building websites and web apps that power the internet. From interactive designs to dynamic functionality, it blends creativity with logic.</p>
+        </div>
+      </div>
+
+            <!-- second card -->
+      <div class="card">
+        <div class="image">
+          <img src="https://wallpapers.com/images/hd/coding-with-python-3d-b9oshkp9vqlwaap6.jpg" alt="">
+           <div class="about-detail">
+            <h1>&#x25CF; PYTHON PROGRAMMING</h1>
+            <p>Python — clean syntax, endless libraries, vibrant community.
+            Automate tasks, crunch data, build web apps, power AI — all with one language.</p>
+           </div>
+        </div>
+      </div>
+              <!-- third card -->
+      <div class="card">
+        <div class="image">
+          <img src="https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+        </div>
+          <div class="about-detail" id="abouttechwave">
+          <h1>&#x25CF; ARTIFICIAL INTELLIGENCE</h1>
+          <p>AI – machines that learn, think, and adapt like humans.
+          From smart assistants to self-driving cars — the future runs on AI.</p>
+         </div>
+      </div>
+     </div>
+
+          <!-- about TechWave -->
+     <div class="about-section">
+      <div class="about-section-image">
+      <img src="https://knowledgewaveindia.com/storage/app/public/upload/2024-07-14-6693d3bb506fb.png" alt="">
+     </div>
+     <div class="about-techwave">
+      <h1>&#x27A4; About TechWave</h1>
+      <p>Welcome to TechWave, where innovation meets       education.</p>
+      <p>Whether you're a curious beginner or an ambitious developer, TechWave is your launchpad into the ever-evolving world of technology.</p>
+      <p>We offer modern, practical, and easy-to-follow resources that help you learn real-world skills — from web development to AI and beyond.</p>
+      <p>Master tech skills, one wave at a time.
+        TechWave – Learn smarter, build faster, grow stronger.</p>
+     </dl>
+     </div>
+     </div>
+      <!-- Contact form -->
+       <div class="form-section" id="formsection">
+        <h2>Contact Us</h2>
+        <div class="inputtypes">
+        <input type="text" name="Nmae" id="name-input" class="input" placeholder="NAME">
+        <input type="tel" class="input"id="phone-input" placeholder="Number">
+        <input type="email" id="email-input" placeholder="Email" class="email input">
+        </div>
+        <button id="submitBtn">SUBMIT</button>
+       </div> 
+       <div class="footer">
+         <p>© 2025 TechWave | Follow us:</p>
+            <div class="socials">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-solid fa-cloud"></i>
+            <i class="fa-solid fa-user-group"></i>
+            </div>
+       </div>
+  <script src="frontend.js"></script>
+</body>
+</html>
